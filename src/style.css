@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+  padding: 10px 30px 30px;
+}
+
+.main {
+  display: flex;
+  padding: 10px 0;
+  gap: 30px;
+}
+
+.main__box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main__box1__header {
+  display: flex;
+  gap: 10px;
+}
+
+.main__box1__ul {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 3px;
+}
+
+button {
+  border: 1px solid black;
+  width: 80px;
+  padding: 5px 0;
+  border-radius: 7px;
+}
