@@ -1,5 +1,5 @@
 import './style.css';
-import showList from '../modules/List';
+import showList from '../modules/List.js';
 import submit from '../modules/Submit.js';
 import refreshFn from '../modules/Refresh.js';
 

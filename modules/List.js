@@ -6,7 +6,7 @@ const showList = async (url) => {
   const scores = data.result;
 
   listEl.innerHTML = '';
-  
+
   scores.forEach((item) => {
     listEl.innerHTML += `
       <li>${item.user}: ${item.score}</li>
