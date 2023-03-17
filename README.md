@@ -74,7 +74,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> <a href="https://nxn404-n.github.io/To-Do-list/src/">Live</a>
+> <a href="#">Live</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +91,7 @@ You don't need any previous installation in order to run this project
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/nxn404-n/To-Do-list.git
+git clone https://github.com/nxn404-n/Leaderboard.git
 
 ### Install
 
