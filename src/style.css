@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   list-style: none;
+  font-family: 'POPPINS', sans-serif;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 
 .container {
   background-color: tomato;
+  border: 2px solid black;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -33,7 +35,7 @@ body {
 
 .main__box1__header {
   display: flex;
-  gap: 10px;
+  gap: 60px;
 }
 
 .main__box1__ul {
@@ -43,17 +45,25 @@ body {
 }
 
 li {
-  color: #fff;
+  color: #000000;
+  padding: 9px 6px;
+  margin: 0;
+  font-size: 18px;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(250, 242, 243);
 }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 input {
   padding: 3px;
+  border: 2px solid black;
 }
 
 button {
