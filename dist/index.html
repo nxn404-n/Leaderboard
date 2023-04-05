@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do List</title>
+    <title>Leaderboard</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <script defer src="main.js"></script></head>
@@ -14,24 +14,20 @@
           <div class="main__box1">
             <div class="main__box1__header">
               <h2>Recent scores</h2>
-              <button class="main__box1__header__btn">Refresh</button>
+              <button class="main__box1__header__refreshbtn" type="button">Refresh</button>
             </div>
-            <ul class="main__box1__ul">
-              <li>Name: 100</li>
-              <li>Name: 85</li>
-              <li>Name: 70</li>
-              <li>Name: 55</li>
-            </ul>
+            <ul class="main__box1__ul"></ul>
           </div>
-          <div class="main__box2"></div>
+          <div class="main__box2">
           <form>
             <h2>Add your score</h2>
 
-            <input type="text" placeholder="Your name">
-            <input type="text" placeholder="Your score">
+            <input type="text" placeholder="Your name" class="name" required>
+            <input type="text" placeholder="Your score" class="score" required>
 
-            <button type="submit">Submit</button>
+            <button type="submit" class="submit">Submit</button>
           </form>
+          </div>
         </div>
     </div>
     <script src="../dist/main.js"></script>
